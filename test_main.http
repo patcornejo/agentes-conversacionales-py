@@ -1,0 +1,11 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/webhook?hub.mode=subscribe&hub.verify_token=super_token&hub.challenge=1158201444
+Accept: application/json
+
+###
